@@ -30,7 +30,20 @@
     5. 切换到主分支，合并分支(将指定分支合并到当前分支)
     `git merge 分支名`
 
+    6.上传到github服务器上
+    git push  https://github.com/wjb-xqx/git-study.git master
 
     小技巧:
     `git checkout -b 分支名` : 创建分支并切换到新创建的分支
 
+
+
+# 拿到github数据
+第一次拿到数据用clone
+后面都用pull拿到数据
+1.初始化一个仓库git init
+2.git pull 【地址】 master即可
+
+
+多人开发(小明与小红)
+先提交到本地，再push到远程服务器
